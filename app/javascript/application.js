@@ -3,9 +3,14 @@
 // import "./controllers"
 import React from "react";
 import ReactDOM from "react-dom";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/routes.js";
 
-function App() {
-	return <h1>Hello World!</h1>;
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+	<React.StrictMode>
+		<RouterProvider router={router} />
+		{/* <Provider store={store}>
+    </Provider> */}
+	</React.StrictMode>
+);
