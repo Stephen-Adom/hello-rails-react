@@ -76,6 +76,8 @@ GEM
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    erb-formatter (0.4.3)
+      syntax_tree (~> 6.0)
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -115,6 +117,7 @@ GEM
     nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.3)
+    prettier_print (1.2.1)
     puma (5.6.6)
       nio4r (~> 2.0)
     racc (1.7.1)
@@ -161,6 +164,8 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+    syntax_tree (6.1.1)
+      prettier_print (>= 1.2.0)
     thor (1.2.2)
     timeout (0.4.0)
     turbo-rails (1.4.0)
@@ -185,6 +190,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  erb-formatter (~> 0.4.3)
   jbuilder
   jsbundling-rails
   pg (~> 1.1)

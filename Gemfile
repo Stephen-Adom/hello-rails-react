@@ -64,3 +64,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "erb-formatter", "~> 0.4.3"
