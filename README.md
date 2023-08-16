@@ -20,7 +20,7 @@
 
 # 📖 [Hello React Rails] <a name="about-project"></a>
 
-A simple full stack application that displays random greetings in different language
+A simple full-stack application that displays random greetings in a different language
 
 ## 🛠 Built With <a name="built-with"></a>
 
